@@ -1,5 +1,5 @@
 <header class="bg-primary text-center">
-<h1>Quote Favorites To Watch</h1>
+<h1>Quote Favorites</h1>
 </header>
 <div class="cards bg-secondary text-white ">
 
@@ -10,14 +10,14 @@
       <p>
         {{this.id}}. {{this.quote}}
 
-        <button data-quoteid="{{this.id}}" class="delquote btn btn-danger">Delete</button>
+        <button data-quoteid="{{this.id}}" class="delquote btn btn-primary">Delete</button>
       </p>
     </li>
   {{/each}}
 </ul>
 </div>
-<div class="container text-center">
-<h2>Add a Quote Favorite to Watch</h2>
+<div class="container">
+<h2>Add a Quote Favorite (Use Quotes)</h2>
 <form id="addquotefavorite" class="button-size">
 	<textarea type="text" name="quotefavorite"></textarea>
   <br />
